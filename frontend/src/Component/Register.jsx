@@ -31,7 +31,7 @@ export const Register = () => {
       window.location.href = '/login';  
     } catch (error) {
       console.error('Registration error:', error.response); 
-      alert('An error occurred during registration');
+      alert('An error or User already exists!');
     }
   };
 
